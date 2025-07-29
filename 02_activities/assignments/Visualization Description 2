@@ -1,0 +1,74 @@
+2. Operational Overview Dashboard 1 (Tableau)
+> Software Used
+Created in Tableau, chosen for its interactive capabilities, geospatial mapping, and KPI integration.
+> Intended Audience
+Healthcare administrators, financial analysts, and policy strategists analyzing performance and resource use across the city.
+> Message Conveyed
+Summarizes 3-year hospital performance: average patient age, length of stay (LOS), complication counts, and costs. The map shows geographic disparities in total charges, and bar-line graphs link cost brackets to LOS.
+> Design Considerations
+Color Scheme: Green tones for charges and LOS consistency
+Map: Spatial analysis of regional cost burdens
+Combo Graph: Illustrates how higher costs relate to increased LOS
+Top-Level KPIs: Placed for quick executive scanning
+> Reproducibility
+Fully filterable by date and payer group. Tableau dashboards can be saved with embedded data, making them reproducible if shared.
+> Accessibility
+High-contrast visuals and legible fonts help with clarity. However, Tableau’s native outputs may need additional work (e.g., alt-text) to meet screen reader accessibility standards.
+> Impacted Communities
+Patients across Toronto’s regions, particularly where costs are higher. Payers like OHIP and private insurers also benefit from insights.
+> Feature Selection
+Selected direct operational KPIs: total charges, LOS, age, and regional data. Excluded provider-level granularity for dashboard simplicity.
+> Underwater Labour
+Data cleaning and aggregation
+Region mapping with GIS layers
+Creating calculated KPIs (e.g., avg. charges per encounter)
+
+Clinical Quality & Performance Dashboard 2
+> Software Used
+Built in Tableau, which supports clinical benchmarking and multidimensional data views.
+> Intended Audience
+Quality improvement officers, clinical leadership, and safety teams interested in tracking complications and readmissions.
+> Message Conveyed
+Compares observed vs. expected complications across service lines and visualizes trends in readmission rates and length of stay. Highlights the top 10 service lines contributing to readmissions.
+> Design Considerations
+Bar Graphs: Used to compare observed vs. expected outcomes
+Color Coding: Yellow for expected, green for observed—assisting visual benchmarking
+Trend Lines: Display changes in complications and readmissions over time
+> Reproducibility
+Interactive filters make comparisons flexible. Tableau workbooks preserve structure, ensuring the analysis can be revisited and replicated.
+> Accessibility
+High-contrast bars and trend lines are helpful, though tooltips and supporting text explanations would improve usability for screen readers.
+> Impacted Communities
+Physician groups being benchmarked, departments with high complication rates, and patients treated in higher-risk service lines.
+> Feature Selection
+Focused on top contributors to readmissions and departments with measurable complication rates. Avoided over-segmentation to keep the dashboard actionable.
+> Underwater Labour
+Linking complications to specific MD groups
+Normalizing readmission rates across DRGs
+Adjusting for expected benchmarks in Tableau
+
+Patient Demographics & Equity Dashboard 3
+> Software Used
+Designed in Tableau, leveraging its strength in categorical filtering and equity-focused breakdowns.
+> Intended Audience
+Health equity analysts, public health agencies, and hospital DEI (diversity, equity, inclusion) teams.
+> Message Conveyed
+Displays disparities in self-reported health ratings across sex, language spoken at home, region, and education level—revealing potential access and outcome inequities.
+> Design Considerations
+Stacked Bars: Present gradations in health perception clearly
+Segmented Views: Organized by language, geography, and education for easy comparison
+Color Palette: Shades from yellow to dark green denote health rating levels
+> Reproducibility
+Filterable by multiple variables. Tableau’s logic and structure can be saved for repeated analysis with new data inputs.
+> Accessibility
+Good use of visual segmentation and consistent legends. Still, Tableau lacks built-in screen reader compatibility—text alternatives should be exported.
+> Impacted Communities
+Racialized and multilingual populations, undereducated groups, and residents in lower-income Toronto regions.
+> Feature Selection
+Prioritized categories aligned with social determinants of health (language, region, education). Excluded income and immigration status for privacy or data completeness concerns.
+> Underwater Labour
+Recoding education and language from intake forms
+Aligning demographic data to standard census regions
+Cleaning self-reported health data into unified categories
+
+WORD COUNT FOR BOTH VISUALIZATION DESCRIPTIONS: 990
