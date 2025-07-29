@@ -1,0 +1,24 @@
+1. Ontario Health Premium vs. Taxable Income Chart
+> Software Used
+This chart was created using Python with Matplotlib, offering programmatic control and reproducibility. It’s ideal for visualizing structured government datasets.
+> Intended Audience
+Ontario residents, healthcare economists, policy analysts, tax professionals, and students studying healthcare financing.
+> Message Conveyed
+The chart shows how the Ontario Health Premium increases with individual taxable income, revealing a progressive structure that levels off at higher incomes. It illustrates income thresholds where premiums rise in discrete steps before capping.
+> Design Considerations
+Axes: Clearly labeled in CAD for clarity.
+Line + Dots: Depict discrete income points and inflection in premium changes.
+Minimalist Layout: Avoids clutter to highlight trend transitions.
+> Reproducibility
+Highly reproducible through Python scripting. The logic, formulas, and data source (e.g., Ontario Ministry of Finance tables) can be shared and rerun.
+> Accessibility
+The simple layout and contrast support readability. To improve accessibility, alt-text, annotations, and a supporting data table should be included for screen readers.
+> Impacted Communities
+All income-tax-paying Ontarians, especially low- and middle-income individuals affected by sharp premium jumps.
+> Feature Selection
+Included: Taxable income and premium amounts.
+Excluded: Family status or year-specific inflation adjustments for simplicity and focus.
+> Underwater Labour
+Sourcing and interpreting Ontario’s tax code
+Scripting conditional logic for stepwise premiums
+Styling with proper axis formatting and spacing
